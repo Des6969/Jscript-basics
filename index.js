@@ -1,3 +1,3 @@
 console.log("Hey There");
 
-var NAM = "DES";
+var NAME = "DES";
