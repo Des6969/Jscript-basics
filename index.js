@@ -1,3 +1,4 @@
 console.log("Hey There");
 
-var NAME = "DES";
+let NAME = "DES";
+console.log(NAME);
