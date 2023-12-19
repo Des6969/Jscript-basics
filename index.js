@@ -3,6 +3,6 @@ console.log("Hey There");
 let NAME = "DES";
 NAME = "ROJALL";
 
-var NAME = "rahul";
+var NAMEE = "rahul";
 
 console.log(NAME);
