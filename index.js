@@ -2,11 +2,11 @@ console.log("Hey There");
 
 let NAME = "DES";
 NAME = "ROJALL";
+console.log(NAME);
 
 var NAMEE = "rahul";
-
-const pie = "3/4";
-
-console.log(NAME);
 console.log(NAMEE);
-console.log(NAME1);
+
+const pie = 3.1415;
+
+console.log(pie);
