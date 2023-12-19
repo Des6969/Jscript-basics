@@ -5,7 +5,8 @@ NAME = "ROJALL";
 
 var NAMEE = "rahul";
 
-const NAMEE = "SHADOW";
+const NAME1 = "SHADOW";
 
 console.log(NAME);
 console.log(NAMEE);
+console.log(NAME1);
