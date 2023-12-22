@@ -1,6 +1,6 @@
 console.log("Functions");
 const a = Number(prompt("enter the value "));
-// const b = Number(prompt("enter the value "));
+const b = Number(prompt("enter the value "));
 
 // //defining a function
 // function add(a, b) {
@@ -36,11 +36,30 @@ const a = Number(prompt("enter the value "));
 // console.log(o);
 // alert("enter even numbeer");
 
-function checkOdd(a) {
-  return a % 2 != 0;
-}
+// function checkOdd(a) {
+//   return a % 2 != 0;
+// }
 
-const o = checkOdd(a);
+// const o = checkOdd(a);
+// console.log(o);
+
+// alert(o);
+//const add = () => {};
+const add = (a, b) => {
+  return a + b;
+};
+const o = add(a, b);
 console.log(o);
 
-alert(o);
+// const substract =() => {};
+// const substract=(a,b)=>{
+//     return a-b;
+// };
+
+// const multiplication =() => {};
+
+// const division = ()=> {};
+
+// const checkEven= () => {};
+
+// const checkOdd= () => {};
