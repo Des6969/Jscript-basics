@@ -45,21 +45,36 @@ const b = Number(prompt("enter the value "));
 
 // alert(o);
 //const add = () => {};
-const add = (a, b) => {
-  return a + b;
-};
-const o = add(a, b);
-console.log(o);
-
-// const substract =() => {};
-// const substract=(a,b)=>{
-//     return a-b;
+// const add = (a, b) => {
+//   return a + b;
 // };
+// const o = add(a, b);
+// console.log(o);
+
+// const substract =() => {};//arrow function :local scope/ES6
+// const substract = (a, b) => {
+//   return a - b;
+// };
+// const o = substract(a, b);
+// console.log(o);
 
 // const multiplication =() => {};
+// const multiplication = (a, b) => {
+//   return a * b;
+// };
+// const o = multiplication(a, b);
+// console.log(o);
 
 // const division = ()=> {};
+// const division = (a, b) => {
+//   return a / b;
+// };
+// const o = division(a, b);
+// console.log(o);
 
 // const checkEven= () => {};
+const checkEven=(a,b){
+    return 
+}
 
 // const checkOdd= () => {};
