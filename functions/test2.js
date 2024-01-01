@@ -52,14 +52,14 @@ const result = addit(2, 3);
 console.log(result);
 //explict
 //return keyboard garne
-const addi = (a, b) => {
-  return a + b;
-};
-console.log()(
+// const addi = (a, b) => {
+//   return a + b;
+// };
+// console.log()(
   //IIFE(Immediately Invoked Functional Expression)
   //instantly run huncha define huna sath
   //scripts to add the dummy data inside the application during the first run
   function () {
     console.log("I am IIFE");
   }
-)();
+
