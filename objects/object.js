@@ -19,3 +19,8 @@ const name = {
   },
 };
 console.log(name);
+//(CRUD):create read update delete (imp)
+name;
+//update
+name.firstName = "Rahul";
+//delete

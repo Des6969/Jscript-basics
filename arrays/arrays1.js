@@ -54,4 +54,3 @@ const ex = [
 ];
 const newAr = ex.sort((a, b) => a.age - b.age);
 console.log({ newAr });
-ex.map;
