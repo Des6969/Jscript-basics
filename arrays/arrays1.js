@@ -39,8 +39,16 @@
 /*Advance technique
 immutable javascript:
 create a shallow copy and operate on it
-map:loop lagaucha copy ma original lie chudaina
-,filter,reduce,every,some
+map:loop lagaucha copy ma original lie chudaina(array nikalcha)
+const arr=["tom","dog","jerry"]
+const newFun=(data,index)=>{
+  console.log({data:data.toUpperCase(),index});
+
+};
+const newArr=arr.map(newFun);//function inside a function is callback function
+
+,filter,reduce,every,
+some:
 */
 // console.log("...........");
 

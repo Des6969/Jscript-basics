@@ -44,8 +44,9 @@ const b = Number(prompt("enter the value "));
 // console.log(o);
 
 // alert(o);
-//const add = () => {};
-// const add = (a, b) => {
+/*Arrow function
+//const add = () => {};(function banako )
+// const add = (a, b) => {                  (function ma parameter halya )
 //   return a + b;
 // };
 // const o = add(a, b);
