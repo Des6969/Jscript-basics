@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="signup.js"></script>
+    <center>
+      <h2>User signup form</h2>
+      <div class="row">
+        <div class="col border dorder-1">
+          <form>
+            <label>Name:</label>
+            <input type="text" id="name" name="name" required /><br /><br />
+
+            <label>Email:</label>
+            <input type="email" id="email" name="email" required /><br /><br />
+
+            <label>Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            /><br /><br />
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label>Male</label>
+
+            <input type="radio" id="female" name="gender" value="female" />
+            <label>Female</label><br /><br />
+
+            <label>Contact:</label>
+            <input type="tel" id="contact" name="contact" /><br /><br />
+
+            <label>Select your college:</label>
+            <select id="college" name="college">
+              <option value="Everest Engineering College">
+                Everest Engineering College
+              </option>
+              <option value="NASA">NASA</option>
+              <option value="CCRC">CCRC</option>
+              <option value="Broadway Infosis">Broadway Infosys</option></select
+            ><br /><br />
+
+            <button onclick="getFormData(); return false;" type="submit">
+              Signup
+            </button>
+          </form>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>

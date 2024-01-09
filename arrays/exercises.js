@@ -32,4 +32,6 @@ console.log(res);
 //write a function that sum every character of[1,2,3]
 
 const num = [1, 2, 3];
-console.log(num);
+
+const sum = () => {};
+const res = console.log();
